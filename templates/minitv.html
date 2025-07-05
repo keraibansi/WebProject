@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minitv</title>
+    {%load static%}
+    <link rel="stylesheet" type="text/css" href="{% static 'minitv.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="lable">
+        <div class="navbar">
+            <p style="color: white;font-weight: bolder;font-size: 40px;">Btrixx</p>
+        </div>
+        <div class="nav-address">
+            <p><a href="#">Deliver to Ahemdabad 380001</a></p>
+            <p><a href="#" style="font-size: 22px;">Update location</a></p>
+        </div>
+        <div class="dropdown1">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                All
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">All Categories</a></li>
+                <li><a class="dropdown-item" href="#">Alexa Skills</a></li>
+                <li><a class="dropdown-item" href="#">Devices</a></li>
+                <li><a class="dropdown-item" href="#">Btrixx Fresh</a></li>
+                <li><a class="dropdown-item" href="#">Appliance</a></li>
+                <li><a class="dropdown-item" href="#">Apps & Games</a></li>
+                <li><a class="dropdown-item" href="#">Beauty</a></li>
+                <li><a class="dropdown-item" href="#">Books</a></li>
+                <li><a class="dropdown-item" href="#">Clothing & Accessories</a></li>
+                <li><a class="dropdown-item" href="#">Deals</a></li>
+                <li><a class="dropdown-item" href="#">Electronics</a></li>
+            </ul>
+            <input type="search" placeholder="search Btrixx.in" style="border-radius: 8px; padding-left: 10px;">
+            <button class="btn btn-warning">search</button>
+        </div>
+        <div class="dropdown2">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                En.
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">हिन्‍दी-Hi</a></li>
+                <li><a class="dropdown-item" href="#">தமிழ்-Tm</a></li>
+                <li><a class="dropdown-item" href="#">తెలుగు-Te</a></li>
+                <li><a class="dropdown-item" href="#">ಕನ್ನಡ-Kn</a></li>
+                <li><a class="dropdown-item" href="#">മലയാളം-Ml</a></li>
+                <li><a class="dropdown-item" href="#">ગુજરાતી-Gu</a></li>
+                <li><a class="dropdown-item" href="#">নমস্কার-Bn</a></li>
+                  
+            </ul>
+        </div>
+        <div class="dropdown3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Account List.
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <b>
+                    <p style="text-align: center;color: rgb(234, 221, 47);">Your List</p>
+                </b>
+                <li><a class="dropdown-item" href="#">Create A Wish List</a></li>
+                <li><a class="dropdown-item" href="#">Wish From Any Website</a></li>
+                <li><a class="dropdown-item" href="#">Disvover Your Style</a></li>
+                <li><a class="dropdown-item" href="#">Exploer Showroom</a></li>
+                  
+            </ul>
+        </div>
+        <div class="nav-returns">
+            <p><a href="#">Returns</a></p>
+            <p><a href="#">& Orders</a></p>
+        </div>
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping" style="color: white;cursor: pointer;"></i>
+            <p style="color: aliceblue;cursor: pointer;">Cart</p>
+        </div>
+    </header>
+    <header class="lable2">
+        <nav class="navbar navbar-blue bg-white">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#load">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="load">
+                <ul class="navbar-nav mr-auto sidebar">
+                    <li class="nav-item"><a href="#" class="nav-link"
+                            style="color:rgb(53, 17, 198);font-size: 25px;">Trending</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:rgb(13, 13, 13);">Best Sellers</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:rgb(10, 10, 10);">Movers/Shakers</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"
+                            style="color:rgb(53, 17, 198); font-size: 25px;">Digital Content</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:rgb(13, 13, 13);">miniTV-FREE</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:rgb(13, 13, 13);">Echo & Alexa</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:rgb(13, 13, 13);">Fire TV</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:rgb(13, 13, 13);">Btrixx prime
+                            Music</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:rgb(13, 13, 13);">Btrixx Prime
+                            Video</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/fresh/">Fresh</a></li>
+                <li><a href="/minitv/">miniTV</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Todays's Deals</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Prime</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">New Releases</a></li>
+                <li><a href="#">Home & Kitchen</a></li>
+            </ul>
+        </div>
+    </header>
+    <nav class="nav1" style="background-color: rgb(50, 50, 97);">
+        <div>
+            <p style="height: 40px; padding-left: 20px;padding-top: 6px;font-size: 30px;color: white;">Btrixx miniTV</p>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">New & Hot</a></li>
+                <li><a href="">Web Series</a></li>
+                <li><a href="">Movies</a></li>
+                <li><a href="">Comedy</a></li>
+                <li><a href="">Romance</a></li>
+                <li><a href="">Tamil</a></li>
+                <li><a href="">Telugu</a></li>
+            </ul>
+            <i class="fa-solid fa-magnifying-glass"
+                style="color: #ffffff;padding-left: 30px;font-size: 20px;cursor: pointer;"></i>
+            <i class="fa-brands fa-amazon"
+                style="color: #ff0000;padding-left: 30px;font-size: 25px;cursor: pointer;"></i>
+            <i class="fa-solid fa-gear" style="color: #ffffff;padding-left: 30px;font-size: 20px;cursor: pointer;"></i>
+        </div>
+    </nav>
+    <div class="divimg" style="background-color: rgb(23, 26, 43);height: 700px;">
+        <img src="https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_Desktop_Lafangey/1cb2bdcc-c6ce-4aa5-89d4-b36f6c5fe9e6.__SX2375__SY1336.25__QL60__._TTW_.jpeg"
+            alt="">
+        <p
+            style="color: white;font-size: 25px;padding-left: 30px;font-family:Arial, Helvetica, sans-serif;padding-top: 20px;">
+            Tranding Top 10</p>
+        <div class="web">
+            <img src="https://m.media-amazon.com/images/S/pv-target-images/eac2e9efe6c4ece4ffd3bd06df335068d4e61f2f6eb0e93d97c832999f0a2574.jpg"
+                style="width: 240px;height: 250px;padding-left: 30px;cursor: pointer;" alt="">
+            <img src="https://i.mydramalist.com/RqeyP_2f.jpg"
+                style="width: 240px;height: 250px;padding-left: 20px;cursor: pointer;" alt="">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.uoJbIDNumd94OcbCLUxCugHaLO?pid=ImgDet&w=474&h=718&rs=1&o=7&rm=3"
+                style="width: 240px;height: 250px;padding-left: 20px;cursor: pointer;" alt="">
+            <img src="https://www.iforher.com/wp-content/uploads/2022/06/New-series-binge-watch-in-a-day-07-1006x1024.jpg"
+                style="width: 240px;height: 250px;padding-left: 20px;cursor: pointer;" alt="">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.-yMnUamuTsw6FiPXB5J3KgHaHV?pid=ImgDet&w=474&h=469&rs=1&o=7&rm=3"
+                style="width: 240px;height: 250px;padding-left: 20px;cursor: pointer;" alt="">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.WxybpLK9yx1mt-5mfmd02wHaHa?pid=ImgDet&w=474&h=474&rs=1&o=7&rm=3"
+                style="width: 240px;height: 250px;padding-left: 20px;cursor: pointer;" alt="">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footter-content">
+                <h3 style="color: white;">Contect Us</h3>
+                <p style="color: white;">Email:example@gamil.com</p>
+                <p style="color: white;">phone:+915438562396</p>
+                <p style="color: white;">Address:My Address 123</p>
+            </div>
+            <div class="footter-content">
+                <ul>
+                    <li><a href="" style="color: white;">Home</a></li>
+                    <li><a href="" style="color: white;">About</a></li>
+                    <li><a href="" style="color: white;">Contect</a></li>
+                    <li><a href="" style="color: white;">Help</a></li>
+                </ul>
+            </div>
+            <div class="footter-content">
+                <h3 style="color: white;">Follow Us</h3>
+                <p><a href="" style="color: white;">Facebook</a></p>
+                <p><a href="" style="color: white;">Instagram</a></p>
+                <p><a href="" style="color: white;">Linkedin</a></p>
+                <p><a href="" style="color: white;">Twitter</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
